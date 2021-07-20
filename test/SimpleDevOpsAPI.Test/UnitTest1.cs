@@ -14,7 +14,7 @@ namespace SimpleDevOpsAPI.Test
         {
         //Given
         var returnValue = controller.Get(1);
-        Assert.Equal("Tariq Iqbal", returnValue);
+        Assert.Equal("Tariq Iqbal", returnValue); // successfully run the test
         //When
         
         //Then
